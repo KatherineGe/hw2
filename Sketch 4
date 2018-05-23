@@ -1,0 +1,52 @@
+int b = 8;
+
+void setup() {
+  pinMode(b, OUTPUT);
+
+}
+
+void loop() {
+  
+  tone(8, 360);
+  
+  delay(200);
+  
+  noTone(8);
+
+  tone(8, 500);
+  
+  delay(800);
+  
+  noTone(8);
+
+  tone(8, 800);
+  
+  delay(1000);
+  
+  noTone(8);
+
+  tone(8, 600);
+  
+  delay(200);
+  
+  noTone(8);
+
+  tone(8, 100);
+  
+  delay(200);
+  
+  noTone(8);
+
+  tone(8, 520);
+  
+  delay(700);
+  
+  noTone(8);
+
+  tone(8, 789);
+  
+  delay(500);
+  
+  noTone(8);
+
+}
